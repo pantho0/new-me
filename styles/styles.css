@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global fonts */
+main,
+header {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Section Styles here */
+.header {
+    width: 100%;
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0px auto;
+
+}
+
+.header-title,
+.header-desc,
+.btn {
+    text-align: right;
+}
+
+.header-title h2 {
+    color: #151414;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header-desc {
+    color: #444343;
+    font-size: 16px;
+    margin: 25px 0px;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 20px 30px;
+    border: 0;
+    color: #fff;
+}
